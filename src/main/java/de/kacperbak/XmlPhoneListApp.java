@@ -52,7 +52,7 @@ public class XmlPhoneListApp {
                     scannerInput = CliUtils.SCANNER.nextLine();
                     break;
 
-                case "x":
+                case "e":
                     CliUtils.exit();
                     loop = false;
                     break;

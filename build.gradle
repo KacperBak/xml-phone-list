@@ -10,14 +10,10 @@ jar {
     version =  '0.0.1-SNAPSHOT'
 }
 
-repositories {
-    mavenLocal()
-    mavenCentral()
-}
-
-dependencies {
-}
-
 task wrapper(type: Wrapper) {
 	gradleVersion = '1.11'
+}
+
+run {
+    standardInput = System.in
 }

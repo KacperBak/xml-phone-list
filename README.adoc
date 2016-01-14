@@ -1,11 +1,28 @@
 = README
 
 == Installation
-. Install JDK 8
-. Install Gradle
-. Run the command `./gradlew run` on Unix based systems OR `./gradlew.bat run` from Windows.
+. Install latest JDK 8
+. Install latest Gradle
+. Use Gradle wrapper to run the app between different operating systems.
+. Build the project with `./gradlew build` on Unix based systems OR `gradlew.bat build` on Windows, as a result `BUILD SUCCESSFUL` message should appear.
+. Launch it with the task `run` like `./gradlew run`.
 
-== Used versions
+The main CLI response should look like this:
+....
+-------------------------------
+Welcome to Xml phone list 2000!
+-------------------------------
+
+Please choose an action:
+(d)isplay current items
+(n)ew item
+(s)ave items to file
+(t)est data
+
+> Building 75% > :run
+....
+
+== Tested on following versions
 
 .Java on OS X
 ....
