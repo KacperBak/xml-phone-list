@@ -12,3 +12,4 @@ exploration
 *.ipr
 *.iws
 .idea
+phoneItems.xml
